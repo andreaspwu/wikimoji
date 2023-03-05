@@ -1,10 +1,5 @@
 import '../styles/globals.css'
 
-// interface LayoutProps {
-//   pageTitle?: string
-//   metaDescription?: string
-// }
-
 export default function RootLayout({
   children,
 }: {
