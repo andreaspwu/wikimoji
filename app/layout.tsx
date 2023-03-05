@@ -11,7 +11,7 @@ export default function RootLayout({
   metaDescription,
 }: {
   children: React.ReactNode
-}): React.FunctionComponent<LayoutProps> {
+}): Promise<LayoutProps> {
   return (
     <html lang="en">
       {/*
