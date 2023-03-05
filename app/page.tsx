@@ -93,7 +93,7 @@ export default function Home() {
         />
       </div>
       {!filteredEmojis.length && (
-        <p className="text-center text-xl text-gray-500">{`Sorry, we could'n find an emoji with: "${currentSearch}"`}</p>
+        <p className="text-center text-xl text-gray-500">{`Sorry, we couldn't find an emoji with: "${currentSearch}"`}</p>
       )}
       <List emojis={filteredEmojis} />
       <Footer />
