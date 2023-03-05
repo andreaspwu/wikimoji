@@ -1,9 +1,9 @@
 import '../styles/globals.css'
 
-interface LayoutProps {
-  pageTitle?: string
-  metaDescription?: string
-}
+// interface LayoutProps {
+//   pageTitle?: string
+//   metaDescription?: string
+// }
 
 export default function RootLayout({
   children,
@@ -11,7 +11,7 @@ export default function RootLayout({
   metaDescription,
 }: {
   children: React.ReactNode
-}): Promise<LayoutProps> {
+}): Promise<ReactNode> {
   return (
     <html lang="en">
       {/*
